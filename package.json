@@ -1,0 +1,19 @@
+{
+  "name": "layout_lemoncode",
+  "version": "1.0.0",
+  "description": "Ejercicios primer modulo Layout Lemoncode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaMunozR/layout_lemoncode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaMunozR/layout_lemoncode/issues"
+  },
+  "homepage": "https://github.com/MariaMunozR/layout_lemoncode#readme"
+}
