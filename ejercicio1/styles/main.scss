@@ -1,0 +1,26 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.container-1 {
+  display: flex;
+  .box {
+    @include boxParams;
+  }
+  @include colorRange($colorBase1);
+}
+
+.container-2 {
+  display: flex;
+  .box {
+    @include boxParams;
+  }
+  @include colorRange($colorBase2);
+}
+
+.container-3 {
+  display: flex;
+  .box {
+    @include boxParams;
+  }
+  @include colorRange($colorBase3);
+}

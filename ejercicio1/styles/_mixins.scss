@@ -1,0 +1,24 @@
+@mixin colorRange($color) {
+    .base-color {
+      background-color: $color;
+    }
+    @for $i from 1 through 4 {
+      .lighten-#{$i} {
+        background-color: lighten($color, 5% * $i);
+      }
+      .darken-#{$i} {
+        background-color: darken($color, 5% * $i);
+      }
+    }
+  }
+  
+  @mixin boxParams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    color: grey;
+    margin: 10px;
+    
+  }
